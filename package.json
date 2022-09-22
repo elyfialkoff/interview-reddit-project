@@ -1,0 +1,28 @@
+{
+  "name": "reddit-cli",
+  "version": "1.0.0",
+  "description": "This project builds a CLI for pulling posts from reddit.com",
+  "main": "dist/index.js ",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elyfialkoff/reddit-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elyfialkoff/reddit-cli/issues"
+  },
+  "homepage": "https://github.com/elyfialkoff/reddit-cli#readme",
+  "dependencies": {
+    "commander": "^9.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
