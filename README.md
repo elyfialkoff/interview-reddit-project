@@ -9,4 +9,8 @@ Run `npm i -g`
 
 Run `npm run build`
 
-In PowerShell execute `reddit --help`
+Run `reddit --help`
+
+Sample command `reddit posts --subreddit toddlers`
+
+
