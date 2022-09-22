@@ -1,8 +1,11 @@
 {
-  "name": "reddit-cli",
+  "name": "reddit",
   "version": "1.0.0",
   "description": "This project builds a CLI for pulling posts from reddit.com",
   "main": "dist/index.js ",
+  "bin": {
+    "reddit": "./dist/index.js"
+  },
   "scripts": {
     "start": "node dist/index.js",
     "build": "tsc",
@@ -20,9 +23,11 @@
   },
   "homepage": "https://github.com/elyfialkoff/reddit-cli#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "commander": "^9.4.0"
   },
   "devDependencies": {
+    "@types/node": "^18.7.18",
     "typescript": "^4.8.3"
   }
 }
