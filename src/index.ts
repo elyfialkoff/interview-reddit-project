@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 import { program } from 'commander';
-import { posts } from './commands/posts';
+import { posts } from './command/posts';
 
 program
   .command('posts')
